@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/mr gamer/AndroidStudioProjects/SalonApp/app/src/main/res/drawable/bac_black.xml" value="0.187" />
+        <entry key="..\:/Users/mr gamer/AndroidStudioProjects/SalonApp/app/src/main/res/drawable/bac_button.xml" value="0.187" />
+        <entry key="..\:/Users/mr gamer/AndroidStudioProjects/SalonApp/app/src/main/res/drawable/bac_cat.xml" value="0.1785" />
+        <entry key="..\:/Users/mr gamer/AndroidStudioProjects/SalonApp/app/src/main/res/drawable/bac_category.xml" value="0.1785" />
+        <entry key="..\:/Users/mr gamer/AndroidStudioProjects/SalonApp/app/src/main/res/drawable/bac_delete_button.xml" value="0.1785" />
+        <entry key="..\:/Users/mr gamer/AndroidStudioProjects/SalonApp/app/src/main/res/drawable/bac_hold_button.xml" value="0.1785" />
+        <entry key="..\:/Users/mr gamer/AndroidStudioProjects/SalonApp/app/src/main/res/drawable/bac_layout.xml" value="0.186" />
+        <entry key="..\:/Users/mr gamer/AndroidStudioProjects/SalonApp/app/src/main/res/drawable/bac_log_in.xml" value="0.1785" />
+        <entry key="..\:/Users/mr gamer/AndroidStudioProjects/SalonApp/app/src/main/res/drawable/bac_save_button.xml" value="0.1785" />
+        <entry key="..\:/Users/mr gamer/AndroidStudioProjects/SalonApp/app/src/main/res/drawable/bac_search.xml" value="0.1785" />
+        <entry key="..\:/Users/mr gamer/AndroidStudioProjects/SalonApp/app/src/main/res/drawable/bac_table.xml" value="0.186" />
+        <entry key="..\:/Users/mr gamer/AndroidStudioProjects/SalonApp/app/src/main/res/drawable/ic_baseline_calendar_today_24.xml" value="0.1785" />
+        <entry key="..\:/Users/mr gamer/AndroidStudioProjects/SalonApp/app/src/main/res/drawable/ic_baseline_color_lens_24.xml" value="0.2115" />
+        <entry key="..\:/Users/mr gamer/AndroidStudioProjects/SalonApp/app/src/main/res/drawable/ic_baseline_date_range_24.xml" value="0.2105" />
+        <entry key="..\:/Users/mr gamer/AndroidStudioProjects/SalonApp/app/src/main/res/drawable/ic_baseline_delete_forever_24.xml" value="0.188" />
+        <entry key="..\:/Users/mr gamer/AndroidStudioProjects/SalonApp/app/src/main/res/drawable/ic_baseline_person_pin_24.xml" value="0.1785" />
+        <entry key="..\:/Users/mr gamer/AndroidStudioProjects/SalonApp/app/src/main/res/drawable/ic_baseline_search_24.xml" value="0.2115" />
+        <entry key="..\:/Users/mr gamer/AndroidStudioProjects/SalonApp/app/src/main/res/drawable/ic_baseline_settings_24.xml" value="0.2115" />
+        <entry key="..\:/Users/mr gamer/AndroidStudioProjects/SalonApp/app/src/main/res/drawable/rosy_dot.xml" value="0.1785" />
+        <entry key="..\:/Users/mr gamer/AndroidStudioProjects/SalonApp/app/src/main/res/layout/activity_main.xml" value="0.12239583333333333" />
+        <entry key="..\:/Users/mr gamer/AndroidStudioProjects/SalonApp/app/src/main/res/layout/appended_event.xml" value="0.1" />
+        <entry key="..\:/Users/mr gamer/AndroidStudioProjects/SalonApp/app/src/main/res/layout/bac_save_button.xml" value="0.1" />
+        <entry key="..\:/Users/mr gamer/AndroidStudioProjects/SalonApp/app/src/main/res/layout/category_item_row.xml" value="0.1" />
+        <entry key="..\:/Users/mr gamer/AndroidStudioProjects/SalonApp/app/src/main/res/layout/category_row.xml" value="0.1" />
+        <entry key="..\:/Users/mr gamer/AndroidStudioProjects/SalonApp/app/src/main/res/layout/first_app_layout.xml" value="0.1" />
+        <entry key="..\:/Users/mr gamer/AndroidStudioProjects/SalonApp/app/src/main/res/layout/item_row.xml" value="0.1421875" />
+        <entry key="..\:/Users/mr gamer/AndroidStudioProjects/SalonApp/app/src/main/res/layout/item_row_.xml" value="0.1" />
+        <entry key="..\:/Users/mr gamer/AndroidStudioProjects/SalonApp/app/src/main/res/layout/ordered_row.xml" value="0.1" />
+        <entry key="..\:/Users/mr gamer/AndroidStudioProjects/SalonApp/app/src/main/res/layout/settingDialog.xml" value="0.1" />
+        <entry key="..\:/Users/mr gamer/AndroidStudioProjects/SalonApp/app/src/main/res/layout/setting_dialog.xml" value="0.1" />
+        <entry key="..\:/Users/mr gamer/AndroidStudioProjects/SalonApp/app/src/main/res/layout/spinner_style.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

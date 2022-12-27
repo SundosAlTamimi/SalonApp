@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="Groups">Groups</string>
+    <string name="ops">Opps</string>
+    <string name="fildtoimport">Failed To Update Try Agin</string>
+    <string name="update">Update ...</string>
+    <string name="noData">"No Data For This Date "</string>
+    <string name="noDataE">No Data For This Employ</string>
+    <string name="fildto">Failed To Get Appointment </string>
+    <string name="getAppo">Get Appointement Please Wait...</string>
+    <string name="ip">Ip</string>
+    <string name="company_no">Company NO</string>
+    <string name="setting">Setting</string>
+    <string name="delete">"Delete "</string>
+    <string name="search_service">search (Service)</string>
+    <string name="search_group">search (Group)</string>
+
+</resources>

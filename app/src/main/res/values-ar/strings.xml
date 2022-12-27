@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">SalonApp</string>
+    <string name="log_in">دخول</string>
+    <string name="to_your_account">الى حسابك</string>
+    <string name="user_name">اسم المستخدم</string>
+    <string name="password">كلمة السر</string>
+    <string name="hi">مرحبا !!! ...</string>
+    <string name="welcome_in_salon_app">مرحبا بكم بتطبيق الصالون</string>
+    <string name="date">التاريخ</string>
+    <string name="from_time"> الوقت من </string>
+    <string name="to_time">الى </string>
+    <string name="period">الفترة</string>
+    <string name="employ_name">اسم الموظف</string>
+    <string name="type">النوع</string>
+    <string name="period_time">المدة الزمنية</string>
+    <string name="customer_name">اسم العميل</string>
+    <string name="customer_phone_no">رقم العميل</string>
+    <string name="note">ملاحظة</string>
+    <string name="service">خدمة</string>
+    <string name="save">حفظ</string>
+    <string name="close">اغلاق</string>
+    <string name="delete_line">حذف سطر</string>
+    <string name="category">الاصناف</string>
+    <string name="salon_calender">تقويم الصالون</string>
+    <string name="Groups">المجموعات</string>
+    <string name="ops">للاسف</string>
+    <string name="fildtoimport">فشل التعديل الرجاء المحاولة لاحقا ...</string>
+    <string name="update">تحديث ...</string>
+    <string name="noData">لا يوجد حجوزات لهذا اليوم</string>
+    <string name="noDataE">لايوجد حجوزات للموظف حاليا</string>
+    <string name="fildto">فشل الاستيراد </string>
+    <string name="getAppo">يتم استيراد الحجوزات الرجاء الانتظار....</string>
+    <string name="ip">رقم (ip)</string>
+    <string name="company_no">رقم الشركة</string>
+    <string name="setting">الاعدادات</string>
+    <string name="delete">"حذف "</string>
+    <string name="search_service">بحث (الخدمات)</string>
+    <string name="search_group">بحث (المجموعات)</string>
+
+</resources>

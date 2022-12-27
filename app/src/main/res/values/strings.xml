@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">SalonApp</string>
+    <string name="log_in">log in</string>
+    <string name="to_your_account">To Your Account</string>
+    <string name="user_name">user name</string>
+    <string name="password">password</string>
+    <string name="hi">Hi !!! ...</string>
+    <string name="welcome_in_salon_app">Welcome In Salon App</string>
+    <string name="date">Date</string>
+    <string name="from_time">From Time</string>
+    <string name="to_time">To Time</string>
+    <string name="period">Period</string>
+    <string name="employ_name">Employ Name</string>
+    <string name="type">Type</string>
+    <string name="period_time">Period Time</string>
+    <string name="customer_name">Customer Name</string>
+    <string name="customer_phone_no">Customer Phone No</string>
+    <string name="note">Note</string>
+    <string name="service">Service</string>
+    <string name="save">Save</string>
+    <string name="close">Close</string>
+    <string name="delete_line">Delete Line</string>
+    <string name="category">Category</string>
+    <string name="salon_calender">Salon Calender</string>
+    <string name="Groups">Groups</string>
+    <string name="ops">Opps</string>
+    <string name="fildtoimport">Failed To Update </string>
+    <string name="fildto">Failed To Get Appointment </string>
+
+    <string name="update">Update ...</string>
+    <string name="noData">"No Data For This Date "</string>
+    <string name="noDataE">No Data For This Employ</string>
+    <string name="getAppo">Get Appointement Please Wait...</string>
+    <string name="ip">Ip</string>
+    <string name="company_no">Company NO</string>
+    <string name="setting">Setting</string>
+    <string name="delete">"Delete "</string>
+    <string name="search_service">search (Service)</string>
+    <string name="search_group">search (Group)</string>
+</resources>

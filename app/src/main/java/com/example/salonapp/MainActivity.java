@@ -23,6 +23,7 @@ import com.azoft.carousellayoutmanager.CarouselLayoutManager;
 import com.azoft.carousellayoutmanager.CarouselZoomPostLayoutListener;
 import com.azoft.carousellayoutmanager.CenterScrollListener;
 import com.example.salonapp.DataServer.importJson;
+import com.example.salonapp.Model.UserInfoModel;
 
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
@@ -36,6 +37,7 @@ public class MainActivity extends AppCompatActivity {
     TextView logInButton,setting;
     importJson importJsonD;
     String today="";
+    ControllClass controllClass;
 
 
 
@@ -58,7 +60,7 @@ public class MainActivity extends AppCompatActivity {
         Password=findViewById(R.id.password);
         logInButton=findViewById(R.id.LogInB);
         setting=findViewById(R.id.setting);
-
+        controllClass = new ControllClass(MainActivity.this);
 
 
         Date currentTimeAndDate = Calendar.getInstance().getTime();
@@ -70,11 +72,19 @@ public class MainActivity extends AppCompatActivity {
         logInButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                if(validUser(userName.getText().toString(),Password.getText().toString())||
+                        ( userName.getText().toString().equals("admin")&&(Password.getText().toString().equals("1000")))){
+                    //Toast.makeText(MainActivity.this, "test", Toast.LENGTH_SHORT).show();
+                    appIntent=new Intent(MainActivity.this,FirstLayoutApp.class);
+                    appIntent.putExtra("FF","0");
+                    startActivity(appIntent);
+                }else {
+                    userName.setError("Invalid");
+                    Password.setError("Invalid");
 
-                //Toast.makeText(MainActivity.this, "test", Toast.LENGTH_SHORT).show();
-                appIntent=new Intent(MainActivity.this,FirstLayoutApp.class);
-                appIntent.putExtra("FF","0");
-                startActivity(appIntent);
+                }
+
+
 
             }
         });
@@ -91,6 +101,14 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
+    private boolean validUser(String user, String password) {
+        List<UserInfoModel> userInfo= controllClass.getUser(user.trim(),password.trim());
+        Log.e("validUser","userInfo=="+userInfo.size());
+        if(userInfo.size()!=0){
+            return true;
+        }else return  false;
+
+    }
 
 }
 

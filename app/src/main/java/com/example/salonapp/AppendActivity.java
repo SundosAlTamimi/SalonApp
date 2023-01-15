@@ -188,9 +188,9 @@ public class AppendActivity extends AppCompatActivity {
 
                     for (int y = 0; y < itemList.size(); y++) {
 
-                        if (itemList.get(y).getNAME().toUpperCase().equals(searchService.getText().toString().toUpperCase())) {
-
-                            serviceTempList.add(itemList.get(y));
+                        if (itemList.get(y).getNAME().toUpperCase().contains(searchService.getText().toString().toUpperCase())) {
+                            GetServiceModel item=itemList.get(y);
+                            serviceTempList.add(item);
                         }
 
                     }
@@ -222,7 +222,7 @@ public class AppendActivity extends AppCompatActivity {
 
                     for (int y = 0; y < categList.size(); y++) {
 
-                        if (categList.get(y).getNAME().toUpperCase().equals(searchGroup.getText().toString().toUpperCase())) {
+                        if (categList.get(y).getNAME().toUpperCase().contains(searchGroup.getText().toString().toUpperCase())) {
 
                             groupTempList.add(categList.get(y));
                         }

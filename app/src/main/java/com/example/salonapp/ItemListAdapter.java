@@ -129,6 +129,7 @@ public class ItemListAdapter extends BaseAdapter {
         List <GetCustomerNameTable>CustomerList=controllClass.getCustomerName(itemsList.get(i).getCUSTOMER_NO());
         if(CustomerList.size()!=0){
             holder.customerName.setText(""+CustomerList.get(0).getFULL_NAME());
+            itemsList.get(i).setCustomerName(CustomerList.get(0).getFULL_NAME());
             holder.ph.setText(""+CustomerList.get(0).getPHONE());
         }else {
             holder.customerName.setText(""+itemsList.get(i).getCUSTOMER_NO());

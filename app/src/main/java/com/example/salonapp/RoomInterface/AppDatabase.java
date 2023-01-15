@@ -19,7 +19,7 @@ import com.example.salonapp.Model.UserGroupModel;
 import com.example.salonapp.Model.UserInfoModel;
 
 
-@Database(entities = {Type.class, AppoimentModel.class, UserInfoModel.class, UserGroupModel.class, GroupsTable.class, GetEmployModel.class, SettingModel.class , GetCustomerNameTable.class}, version = 5, exportSchema = false)
+@Database(entities = {Type.class, AppoimentModel.class, UserInfoModel.class, UserGroupModel.class, GroupsTable.class, GetEmployModel.class, SettingModel.class , GetCustomerNameTable.class}, version = 6, exportSchema = false)
 public abstract class AppDatabase extends RoomDatabase {
 
     public abstract UserDaoType TypeTable();

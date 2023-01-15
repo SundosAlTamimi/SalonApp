@@ -188,17 +188,19 @@ public class AppendActivity extends AppCompatActivity {
 
                     for (int y = 0; y < itemList.size(); y++) {
 
-                        if (itemList.get(y).getNAME().toUpperCase().equals(searchService.getText().toString().toUpperCase())) {
+                        if (itemList.get(y).getNAME().toUpperCase().contains(searchService.getText().toString().toUpperCase())) {
 
-                            serviceTempList.add(itemList.get(y));
+                            GetServiceModel getServiceModel=itemList.get(y);
+                            serviceTempList.add(getServiceModel);
                         }
 
                     }
 
-                    fillServiceList(serviceTempList);
+                    fillServiceList(serviceTempList,0);
 
                 } else {
-                    fillServiceList(itemList);
+
+                    fillServiceList(itemList,0);
                 }
 
             }
@@ -222,9 +224,10 @@ public class AppendActivity extends AppCompatActivity {
 
                     for (int y = 0; y < categList.size(); y++) {
 
-                        if (categList.get(y).getNAME().toUpperCase().equals(searchGroup.getText().toString().toUpperCase())) {
+                        if (categList.get(y).getNAME().toUpperCase().contains(searchGroup.getText().toString().toUpperCase())) {
 
-                            groupTempList.add(categList.get(y));
+                            GroupsTable groupsTable=categList.get(y);
+                            groupTempList.add(groupsTable);
                         }
 
                     }
@@ -443,11 +446,17 @@ public class AppendActivity extends AppCompatActivity {
 
     }
 
-    public void fillServiceList(List<GetServiceModel> servicesList) {
-        itemList = servicesList;
-        categoryItemListAdapter = new CategoryItemListAdapter(AppendActivity.this, itemList);
+    public void fillServiceList(List<GetServiceModel> servicesList,int flag) {
+        List<GetServiceModel>temp=new ArrayList<>();
+        if(flag==1) {
+            itemList = servicesList;
+            temp=servicesList;
+        }else if(flag==0){
+            temp= servicesList;
+        }
+        categoryItemListAdapter = new CategoryItemListAdapter(AppendActivity.this, temp);
         listGrid.setAdapter(categoryItemListAdapter);
-        refreshCat();
+//        refreshCat();
     }
 
     String addBetweenTime(String fromT, String toT) {

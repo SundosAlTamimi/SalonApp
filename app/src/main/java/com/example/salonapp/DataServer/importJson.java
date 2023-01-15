@@ -1046,7 +1046,7 @@ Log.e("GetType1","in");
                 try{
 
                     AppendActivity appendActivity=(AppendActivity) context;
-                    appendActivity.fillServiceList(servicesList);
+                    appendActivity.fillServiceList(servicesList,1);
 
                 }catch (Exception e){
                     Log.e("importGetService","eRROR"+e.toString());
@@ -1063,7 +1063,7 @@ Log.e("GetType1","in");
                 try{
                     servicesList.clear();
                     AppendActivity appendActivity=(AppendActivity) context;
-                    appendActivity.fillServiceList(servicesList);
+                    appendActivity.fillServiceList(servicesList,1);
 
                 }catch (Exception e){
                     Log.e("importGetService","eRROR"+e.toString());
@@ -1078,7 +1078,7 @@ Log.e("GetType1","in");
                 try{
                     servicesList.clear();
                     AppendActivity appendActivity=(AppendActivity) context;
-                    appendActivity.fillServiceList(servicesList);
+                    appendActivity.fillServiceList(servicesList,1);
 
                 }catch (Exception e){
                     Log.e("importGetService","eRROR"+e.toString());

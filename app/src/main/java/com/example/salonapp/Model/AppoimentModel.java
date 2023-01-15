@@ -146,6 +146,8 @@ public class AppoimentModel {
     @ColumnInfo(name = "IS_OPENED")
     private String IS_OPENED;
 
+    private String customerName;
+
     public AppoimentModel() {
     }
 
@@ -538,5 +540,13 @@ public class AppoimentModel {
 
     public void setIS_OPENED(String IS_OPENED) {
         this.IS_OPENED = IS_OPENED;
+    }
+
+    public String getCustomerName() {
+        return customerName;
+    }
+
+    public void setCustomerName(String customerName) {
+        this.customerName = customerName;
     }
 }

@@ -186,8 +186,12 @@ public class FirstLayoutApp extends AppCompatActivity {
                 appoimentTemp.clear();
                 if(!appointmentSearch.getText().toString().equals("")){
                     for(int q=0;q<listOfAppi.size();q++) {
-                        if (listOfAppi.get(q).getCUSTOMER_NO().toUpperCase().contains(appointmentSearch.getText().toString().toUpperCase())) {
-                            appoimentTemp.add(listOfAppi.get(q));
+                        try {
+                            if (listOfAppi.get(q).getCustomerName().toUpperCase().contains(appointmentSearch.getText().toString().toUpperCase())) {
+                                appoimentTemp.add(listOfAppi.get(q));
+
+                            }
+                        }catch (Exception e){
 
                         }
                     }

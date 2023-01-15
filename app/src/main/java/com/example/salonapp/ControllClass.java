@@ -152,6 +152,10 @@ public class ControllClass {
         // UserDaoCard userDao = db.itemCard();
         return db.daoUserInfoTable().getAll();
     }
+    public List<UserInfoModel> getUser(String user,String pass) {
+
+        return db.daoUserInfoTable().getUserInfo(user,pass);
+    }
 
 
     public String saveGroupsTable(List<GroupsTable>list) {
